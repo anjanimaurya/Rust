@@ -1,0 +1,5 @@
+/workspaces/CodeStore/Rust/CheckStockQuote/target/debug/build/serde_derive-215117d75463b114/build_script_build-215117d75463b114: /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive-1.0.130/build.rs
+
+/workspaces/CodeStore/Rust/CheckStockQuote/target/debug/build/serde_derive-215117d75463b114/build_script_build-215117d75463b114.d: /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive-1.0.130/build.rs
+
+/usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive-1.0.130/build.rs:
