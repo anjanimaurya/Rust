@@ -14,7 +14,7 @@ fn mail_by_lettre(){
     let mail_body = "<h2>This is a test email</h2><p>This is sent by a Rust Program:</p><p>Built on GitHub, Codespaces using VSCode.</p>";
     let email_body = MaybeString::String(mail_body.into());
 
-    let to_address = "Anjani Maurya<maurya.anjani@gmail.com>";
+    let to_address = "Anjani Maurya<maurya.anjani@abc.com>";
 
     let mailboxes: Mailboxes = to_address.parse().unwrap();
     let to_header: header::To = mailboxes.into();
@@ -26,7 +26,7 @@ fn mail_by_lettre(){
         .singlepart(SinglePart::html(email_body))
         .unwrap();
 
-    let creds = Credentials::new("anjani.maurya@ocr-inc.com".to_string(), "rkmzvfmwookrlznd".to_string());
+    let creds = Credentials::new("anjani.maurya@test.com".to_string(), "xxxxxxxxxxxxx".to_string());
 
     // Open a remote connection to gmail
     let mailer = SmtpTransport::relay("smtp.gmail.com")
