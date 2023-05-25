@@ -21,7 +21,7 @@ fn mail_by_lettre(){
 
     let email = MessageBuilder::new()
         .mailbox(to_header)
-        .from("Anjani Maurya<anjani.maurya@ocr-inc.com>".parse().unwrap())
+        .from("Anjani Maurya<anjani.maurya@test.com>".parse().unwrap())
         .subject("Happy new year")
         .singlepart(SinglePart::html(email_body))
         .unwrap();
